@@ -1,0 +1,22 @@
+body{
+    background-color: #dfe6e9;
+}
+
+.container{
+    margin: 40px auto;
+}
+
+.own-input{
+    border-color: red;
+}
+
+/* .grid-ex{
+    height: 940px;
+    grid-row: 1 / span 3;
+}
+
+.grid-y{
+    z-index: 1;
+    width: 600px;
+    grid-column: 1 / span 2;
+} */
