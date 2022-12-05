@@ -136,6 +136,13 @@
 .ml-25{ margin-left: 25px; }
 .ml-30{ margin-left: 30px; }
 
+.mc-5{ margin: 5px auto; }
+.mc-10{ margin: 10px auto; }
+.mc-15{ margin: 15px auto; }
+.mc-20{ margin: 20px auto; }
+.mc-25{ margin: 25px auto; }
+.mc-30{ margin: 30px auto; }
+
 .p-5{ padding :5px; }
 .p-10{ padding: 10px; }
 .p-15{ padding: 15px; }
@@ -290,4 +297,11 @@ h1, h2, h3, h4, h5, h6{
 
 .text-justify{
     text-align: justify;
+}
+
+@media screen and (max-width: 384px) {
+    .container{
+        background-color: pink;
+        width: 100%;
+    }
 }
